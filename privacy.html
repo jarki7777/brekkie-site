@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brekkie — Política de Privacidad</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #FAFAFA;
+            color: #1A1A1A;
+            line-height: 1.7;
+        }
+        
+        header {
+            background: #FF6B35;
+            padding: 40px 24px;
+            text-align: center;
+        }
+        
+        header h1 {
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        
+        header p {
+            color: rgba(255,255,255,0.85);
+            font-size: 15px;
+            margin-top: 6px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 12px;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .back-link:hover { color: white; }
+        
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            color: #1A1A1A;
+        }
+        
+        p, li {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 12px;
+        }
+        
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        
+        li { margin-bottom: 6px; }
+        
+        .effective-date {
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #E0E0E0;
+        }
+        
+        .contact-box {
+            background: white;
+            border: 1px solid #E0E0E0;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 32px;
+        }
+        
+        .contact-box p { margin-bottom: 4px; }
+        
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #999;
+            font-size: 13px;
+            border-top: 1px solid #E0E0E0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>brekkie</h1>
+        <p>Política de Privacidad</p>
+        <a href="/" class="back-link">← Volver a la página principal</a>
+    </header>
+    
+    <main>
+        <p class="effective-date">Última actualización: 28 de marzo de 2026</p>
+        
+        <p>Brekkie ("la aplicación", "nosotros") es una aplicación móvil que ayuda a los usuarios a descubrir recetas basadas en los ingredientes que tienen en casa. Esta política describe qué datos recogemos, cómo los usamos y cómo puedes ejercer tus derechos.</p>
+        
+        <h2>1. Datos que recogemos</h2>
+        <p>Recogemos los siguientes datos según cómo uses la aplicación:</p>
+        <ul>
+            <li><strong>Datos de cuenta:</strong> si te registras, almacenamos tu dirección de correo electrónico y tu método de autenticación (email o Google). Si usas la app sin registrarte, se crea un identificador anónimo temporal.</li>
+            <li><strong>Fotografías de alimentos:</strong> cuando escaneas tu nevera o despensa, la imagen se envía a un servicio de inteligencia artificial (Claude, de Anthropic) para identificar los ingredientes visibles. Las imágenes se procesan en tiempo real y no se almacenan permanentemente en nuestros servidores.</li>
+            <li><strong>Datos de despensa:</strong> la lista de ingredientes que confirmas se almacena en tu cuenta para poder sugerirte recetas.</li>
+            <li><strong>Historial de uso:</strong> registramos qué recetas descartas o seleccionas (swipes) y qué recetas marcas como cocinadas, con el fin de mejorar las sugerencias futuras.</li>
+        </ul>
+        
+        <h2>2. Cómo usamos tus datos</h2>
+        <p>Usamos tus datos exclusivamente para:</p>
+        <ul>
+            <li>Identificar ingredientes en tus fotografías y sugerirte recetas personalizadas.</li>
+            <li>Mantener tu despensa digital actualizada entre sesiones.</li>
+            <li>Mejorar la calidad de las sugerencias de recetas basándonos en tus preferencias.</li>
+            <li>Gestionar tu cuenta y autenticación.</li>
+        </ul>
+        <p>No vendemos, alquilamos ni compartimos tus datos personales con terceros con fines publicitarios o de marketing.</p>
+        
+        <h2>3. Servicios de terceros</h2>
+        <p>Brekkie utiliza los siguientes servicios de terceros para funcionar:</p>
+        <ul>
+            <li><strong>Supabase</strong> (supabase.com): almacenamiento de datos y autenticación. Los datos se almacenan en servidores dentro de la Unión Europea. Consulta su <a href="https://supabase.com/privacy" target="_blank">política de privacidad</a>.</li>
+            <li><strong>Anthropic / Claude API</strong> (anthropic.com): procesamiento de imágenes mediante inteligencia artificial para identificar ingredientes. Las imágenes se envían a sus servidores para su análisis. Consulta su <a href="https://www.anthropic.com/privacy" target="_blank">política de privacidad</a>.</li>
+            <li><strong>Google Sign-In</strong> (google.com): si eliges iniciar sesión con Google, se comparten tu nombre y correo electrónico con nosotros a través de Google OAuth. Consulta la <a href="https://policies.google.com/privacy" target="_blank">política de privacidad de Google</a>.</li>
+        </ul>
+        
+        <h2>4. Almacenamiento y seguridad</h2>
+        <p>Tus datos se almacenan en Supabase con cifrado en tránsito (TLS) y en reposo. El acceso a los datos está protegido mediante Row Level Security, lo que significa que cada usuario solo puede acceder a sus propios datos. Las imágenes que envías para escaneo no se almacenan de forma permanente.</p>
+        
+        <h2>5. Tus derechos</h2>
+        <p>De acuerdo con el Reglamento General de Protección de Datos (RGPD), tienes derecho a:</p>
+        <ul>
+            <li><strong>Acceso:</strong> solicitar una copia de los datos que tenemos sobre ti.</li>
+            <li><strong>Rectificación:</strong> corregir datos inexactos.</li>
+            <li><strong>Supresión:</strong> solicitar que eliminemos tu cuenta y todos tus datos asociados.</li>
+            <li><strong>Portabilidad:</strong> recibir tus datos en un formato estructurado.</li>
+            <li><strong>Oposición:</strong> oponerte al procesamiento de tus datos.</li>
+        </ul>
+        <p>Para ejercer cualquiera de estos derechos, contacta con nosotros a través del correo que aparece más abajo.</p>
+        
+        <h2>6. Eliminación de cuenta y datos</h2>
+        <p>Puedes solicitar la eliminación completa de tu cuenta y todos los datos asociados en cualquier momento enviando un correo electrónico a nuestra dirección de contacto. Procesaremos tu solicitud en un plazo máximo de 30 días.</p>
+        
+        <h2>7. Menores de edad</h2>
+        <p>Brekkie no está dirigida a menores de 16 años. No recogemos datos de menores de forma intencionada. Si descubrimos que hemos recogido datos de un menor, los eliminaremos de inmediato.</p>
+        
+        <h2>8. Cambios en esta política</h2>
+        <p>Podemos actualizar esta política de privacidad ocasionalmente. Publicaremos cualquier cambio en esta misma página con la fecha de actualización correspondiente. Te recomendamos revisarla periódicamente.</p>
+        
+        <h2>9. Contacto</h2>
+        <div class="contact-box">
+            <p><strong>Responsable:</strong> Jarki Meléndez</p>
+            <p><strong>Correo electrónico:</strong> jarki@brekkie.app</p>
+            <p><strong>Ubicación:</strong> Madrid, España</p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2026 Brekkie. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
